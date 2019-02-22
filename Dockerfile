@@ -1,5 +1,5 @@
-FROM sath89/oracle-ee-11g-base:latest
-
+#FROM sath89/oracle-ee-11g-base:latest
+FROM orbuild:latest
 ENV DBCA_TOTAL_MEMORY 4096
 ENV WEB_CONSOLE true
 
