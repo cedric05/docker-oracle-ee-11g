@@ -3,7 +3,8 @@ FROM orbuild:latest
 ENV DBCA_TOTAL_MEMORY 4096
 ENV WEB_CONSOLE true
 
-ENV ORACLE_SID=EE
+ENV ORACLE_SID=ORCL
+ENV ORACLE_SERVICE_NAME=ORCL
 ENV ORACLE_HOME=/u01/app/oracle/product/11.2.0/EE
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/u01/app/oracle/product/11.2.0/EE/bin
 
